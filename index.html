@@ -275,34 +275,39 @@
 
         <section id="pricing">
             <div class="get_p">
-                <p class="custom">Get Custom Pricing</p>
-                <p class="select">Select Pricing</p>
+                <a href="#"><p class="custom">Get Custom Pricing</p></a>
+                <a href="#"><p class="select">Select Pricing</p></a>
             </div>
         </section>
 
         <section id="form">
             <div class="form-container">
-                <form action="">
+                <form action="#">
                     <table id="info">
                         <tr>
                             <td colspan="2">
-                                <input type="text" id="firstName" name="firstName" placeholder="Paste URL here..">
+                                <input type="url" id="url" name="url" placeholder="Paste URL here..">
                             </td>
                         </tr>
-                        <tr>
+                        <tr class="tr">
                             <td>
-                                <input type="text" id="lastName" name="lastName" placeholder="Choose Domain ">
+                                <select name="domain" id="domain">
+                                    <option value="#">Choose Domain</option>
+                                    <option value="example.com">example.com</option>
+                                    <option value="mywebsite.net">mywebsite.net</option>
+                                    <option value="scissors.org">scissors.org</option>
+                                </select>
                             </td>
                             <td>
-                                <input type="text" id="lastName" name="lastName" placeholder="Type Alias here">
+                                <input type="text" id="alias" name="alias" placeholder="Type Alias here">
                             </td>
                         </tr>
                     </table>
 
-                    <button type="submit" value="submit" class="btn">
+                    <a href="#"><button type="submit" value="submit" class="btn">
                         <p>Trim URL</p>
                         <img src="assets\magic wand.png" class="wand" alt="wand">
-                    </button>
+                    </button></a>
                     <p class="terms">By clicking TrimURL, I agree to the <strong>Terms of Service, Privacy
                             Policy</strong> and Use of Cookies.</p>
                 </form>
@@ -420,12 +425,12 @@
     <footer>
         <div class="footer-container">
             <div class="logo1">
-                <img src="assets\Logo (3).png" alt="logo">
+                <img src="assets\Logo (3).png" class="logo2" alt="logo">
                 <div class="socials">
-                    <img src="assets\i.fi-social-twitter.png" alt="twitter">
-                    <img src="assets\svg.feather.png" alt="instagram">
-                    <img src="assets\i.fi-social-linkedin.png" alt="">
-                    <img src="assets\i.fi-social-facebook.png" alt="facebook">
+                    <a href="#"><img src="assets\i.fi-social-twitter.png" alt="twitter"></a>
+                    <a href="#"><img src="assets\svg.feather.png" alt="instagram"></a>
+                    <a href="#"> <img src="assets\i.fi-social-linkedin.png" alt=""></a>
+                    <a href="#"><img src="assets\i.fi-social-facebook.png" alt="facebook"></a>
                 </div>
             </div>
 
@@ -495,9 +500,9 @@
         </div>
 
         <div class="term">
-            <p>Terms of Service</p>
+            <a href="#"><p>Terms of Service</p></a>
             <img src="assets\Vector 5.png" alt="line">
-            <p>Security</p>
+            <a href="#"><p>Security</p></a>
             <img class="linee" src="assets\Vector 5.png" alt="line">
             <p class="year">Scissor 2023</p>
         </div>
