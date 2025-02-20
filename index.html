@@ -9,27 +9,32 @@
 </head>
 
 <body>
-    <header>
-        <nav class="navbar">
+    <header class="headlinks">
+        <div class="container">
             <div class="scissor-logo">
                 <a href="#"><img src="assets\Logo (2).png" alt="scissor-logo" /></a>
             </div>
 
-            <ul class="nav-links center-links">
-                <li><a href="#" class="url">My URLs</a></li>
-                <li class="flex">
-                    <a href="#" class="features">Features</a>
-                    <img src="assets\chevron-down.png" alt="arrow-down" class="arrow" />
-                </li>
-                <li><a href="#" class="price">Pricing</a></li>
-                <li><a href="#" class="analytic">Analytics</a></li>
-                <li><a href="#" class="faq">FAQs</a></li>
-            </ul>
-            <ul class="nav-links right-links">
-                <li><a href="#" class="login">Log In</a></li>
-                <li><a href="#" class="try">Try for Free</a></li>
-            </ul>
-        </nav>
+            <nav class="navbar">
+                <ul class="nav-links">
+                    <span class="center-links">
+                        <li><a href="#" class="url">My URLs</a></li>
+                        <li class="flex">
+                            <a href="#" class="features">Features</a>
+                            <img src="assets\chevron-down.png" alt="arrow-down" class="arrow" />
+                        </li>
+                        <li><a href="#" class="price">Pricing</a></li>
+                        <li><a href="#" class="analytic">Analytics</a></li>
+                        <li><a href="#" class="faq">FAQs</a></li>
+                    </span>
+                    <span class="right-links">
+                        <li><a href="#" class="login">Log In</a></li>
+                        <li><a href="#" class="try">Try for Free</a></li>
+                    </span>
+                </ul>
+                <div class="hamburger" onclick="ToggleMenu()">&#9776;</div>
+            </nav>
+        </div>
     </header>
 
     <main>
@@ -275,8 +280,12 @@
 
         <section id="pricing">
             <div class="get_p">
-                <a href="#"><p class="custom">Get Custom Pricing</p></a>
-                <a href="#"><p class="select">Select Pricing</p></a>
+                <a href="#">
+                    <p class="custom">Get Custom Pricing</p>
+                </a>
+                <a href="#">
+                    <p class="select">Select Pricing</p>
+                </a>
             </div>
         </section>
 
@@ -305,9 +314,9 @@
                     </table>
 
                     <a href="#"><button type="submit" value="submit" class="btn">
-                        <p>Trim URL</p>
-                        <img src="assets\magic wand.png" class="wand" alt="wand">
-                    </button></a>
+                            <p>Trim URL</p>
+                            <img src="assets\magic wand.png" class="wand" alt="wand">
+                        </button></a>
                     <p class="terms">By clicking TrimURL, I agree to the <strong>Terms of Service, Privacy
                             Policy</strong> and Use of Cookies.</p>
                 </form>
@@ -500,9 +509,13 @@
         </div>
 
         <div class="term">
-            <a href="#"><p>Terms of Service</p></a>
+            <a href="#">
+                <p>Terms of Service</p>
+            </a>
             <img src="assets\Vector 5.png" alt="line">
-            <a href="#"><p>Security</p></a>
+            <a href="#">
+                <p>Security</p>
+            </a>
             <img class="linee" src="assets\Vector 5.png" alt="line">
             <p class="year">Scissor 2023</p>
         </div>
